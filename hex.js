@@ -3,14 +3,13 @@ const spanColor = document.querySelector('.color');
 const btn = document.querySelector('.btn');
 
 btn.addEventListener('click',function(){
-    hexCode = '#';
-    for(let i=0; i<6; i++){
-        hexCode += hexColor[getRandomNumber()]
+    hexCode='#';
+    for(let i=0;i<6;i++){
+        hexCode+=hexColor[getRandomNumber()];
     }
-    document.body.style.backgroundColor = hexCode;
+    document.body.style.background = hexCode;
     spanColor.textContent = hexCode;
-    console.log(hexCode)
 })
 function getRandomNumber(){
-    return Math.floor(Math.random()*hexCode.length)
+    return Math.floor(Math.random()*hexColor.length)
 }
