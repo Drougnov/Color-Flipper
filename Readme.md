@@ -11,7 +11,7 @@ Hello! Thanks for cheking out this repository.
 It's a random color generator made with vanilla JS. I've been learning basic javascript project form [jhon smilga's youtube course](https://youtu.be/3PHXvlpOkf4). I learned the simple and hex one from his tutorial. I did the rest on my own. I didn't focus on the ui much. The simple color array was copied form [here](https://gist.github.com/bobspace/2712980).
 
 Here is my project site's url-
-https://drougnov.github.io/random-color-generator/
+https://drougnov.github.io/Color-Generator/
 
 ## Built with
 
